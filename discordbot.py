@@ -28,8 +28,8 @@ service = discovery.build(
 reactRange = RoleSheetName + '!A2:B'
 rangeName = ReplySheetName + '!A2:D'
 
-intent=discord.Intents.all()
-client = commands.Bot(command_prefix = "!",intents=intent)
+intents=discord.Intents.all()
+client =discord.Client(intents=intents)
 
 
 
